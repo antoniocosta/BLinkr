@@ -6,7 +6,7 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
     <group android:translateX="28.0" android:translateY="28.0" android:scaleX="0.101562" android:scaleY="0.101562">
-        <path android:fillColor="@color/blinkr_black" android:pathData="M64,199h32v249h-32zM64,194h164v32h-164zM64,416h256v32h-256zM288,288h32v158h-32z" />
-        <path android:fillColor="@color/blinkr_blue" android:pathData="M228,128h124v32h-124zM288,64h160v32h-160zM352,128h32v160h-32zM416,64h32v160h-32zM288,192h32v32h-32zM320,160h32v32h-32zM256,224h32v32h-32zM224,256h32v32h-32zM192,288h32v32h-32z" />
+        <path android:fillColor="@color/blinkr_black" android:pathData="M64,199h32v249h-32zM64,192h160v32h-160zM64,416h256v32h-256zM288,288h32v158h-32z" />
+        <path android:fillColor="@color/blinkr_blue" android:pathData="M224,128h128v32h-128zM288,64h160v32h-160zM352,128h32v160h-32zM416,64h32v160h-32zM320,160h32v32h-32zM288,192h32v32h-32zM256,224h32v32h-32zM224,256h32v32h-32zM192,288h32v32h-32z" />
     </group>
 </vector>
