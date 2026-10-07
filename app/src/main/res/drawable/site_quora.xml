@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from art/sites/quora.svg by scripts/gen-site-icons.py. Do not edit by hand. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#FFB92B27" android:pathData="M 7.3799 .9483 A 11.9628 11.9628 0 0 1 21.248 19.5397 l 2.4096 2.4225 c .7322 .7362 .21 1.9905 -.8272 1.9905 l -10.7105 .01 a 12.52 12.52 0 0 1 -.304 0 h -.02 A 11.9628 11.9628 0 0 1 7.3818 .9503 Z m 7.3217 4.428 a 7.1717 7.1717 0 1 0 -5.4873 13.2512 7.1717 7.1717 0 0 0 5.4883 -13.2511 Z" />
+</vector>

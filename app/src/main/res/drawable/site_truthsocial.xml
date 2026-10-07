@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from art/sites/truthsocial.svg by scripts/gen-site-icons.py. Do not edit by hand. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#FF5448EE" android:pathData="M 2 3 h 15 v 4.2 h -5.4 V 21 H 7.4 V 7.2 H 2 z M 17.8 16.8 H 22 V 21 h -4.2 z" />
+</vector>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- To list every browser and every app that opens a site (e.g. the TikTok app) to pick from -->
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+          Receives the links and hands each one to the chosen app, showing nothing.
+          No autoVerify: we don't own these domains, so the user approves them in
+          Settings → Apps → BLinkr → Open by default → Add links.
+        -->
+        <activity
+            android:name=".RouterActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/RouterTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <!-- hosts: generated from Sites.kt by scripts/gen-manifest.py -->
+                <data android:host="bereal.com" />
+                <data android:host="bere.al" />
+                <data android:host="bsky.app" />
+                <data android:host="*.bsky.app" />
+                <data android:host="discord.com" />
+                <data android:host="*.discord.com" />
+                <data android:host="discord.gg" />
+                <data android:host="facebook.com" />
+                <data android:host="*.facebook.com" />
+                <data android:host="fb.com" />
+                <data android:host="fb.me" />
+                <data android:host="fb.watch" />
+                <data android:host="instagram.com" />
+                <data android:host="*.instagram.com" />
+                <data android:host="instagr.am" />
+                <data android:host="ig.me" />
+                <data android:host="linkedin.com" />
+                <data android:host="*.linkedin.com" />
+                <data android:host="lnkd.in" />
+                <data android:host="messenger.com" />
+                <data android:host="*.messenger.com" />
+                <data android:host="m.me" />
+                <data android:host="pinterest.com" />
+                <data android:host="*.pinterest.com" />
+                <data android:host="pin.it" />
+                <data android:host="quora.com" />
+                <data android:host="*.quora.com" />
+                <data android:host="reddit.com" />
+                <data android:host="*.reddit.com" />
+                <data android:host="redd.it" />
+                <data android:host="snapchat.com" />
+                <data android:host="*.snapchat.com" />
+                <data android:host="t.me" />
+                <data android:host="telegram.me" />
+                <data android:host="threads.net" />
+                <data android:host="*.threads.net" />
+                <data android:host="threads.com" />
+                <data android:host="*.threads.com" />
+                <data android:host="tiktok.com" />
+                <data android:host="*.tiktok.com" />
+                <data android:host="truthsocial.com" />
+                <data android:host="*.truthsocial.com" />
+                <data android:host="tumblr.com" />
+                <data android:host="*.tumblr.com" />
+                <data android:host="tmblr.co" />
+                <data android:host="twitch.tv" />
+                <data android:host="*.twitch.tv" />
+                <data android:host="x.com" />
+                <data android:host="*.x.com" />
+                <data android:host="twitter.com" />
+                <data android:host="*.twitter.com" />
+                <data android:host="t.co" />
+                <data android:host="vk.com" />
+                <data android:host="*.vk.com" />
+                <data android:host="vk.ru" />
+                <data android:host="youtube.com" />
+                <data android:host="*.youtube.com" />
+                <data android:host="youtu.be" />
+                <!-- /hosts -->
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

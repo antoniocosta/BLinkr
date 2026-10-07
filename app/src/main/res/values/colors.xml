@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand (same as IPeekr): flat electric blue + black on white -->
+    <color name="blinkr_blue">#FF0000EE</color>
+    <color name="blinkr_black">#FF000000</color>
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+</resources>
