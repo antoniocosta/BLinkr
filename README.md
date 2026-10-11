@@ -6,6 +6,10 @@ A tiny Android link router for social media. When you open a link to one of 20 s
 
 It's a much simpler take on [LinkSheet](https://github.com/LinkSheet/LinkSheet): one fixed list of sites, one app for all of them, and optional per-site overrides. No browser of its own, no network access, no background work.
 
+If you like this or find it useful, support the project by buying me a coffee.
+
+<a href="https://www.buymeacoffee.com/antoniocosta" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+
 <img src="docs/screenshot-1.png" width="270" alt="Default app and per-site apps"> <img src="docs/screenshot-2.png" width="270" alt="Picking an app for one site">
 
 BLinkr has a sibling app with the same look: [IPeekr](https://github.com/antoniocosta/IPeekr), a home-screen widget that shows your connection.
